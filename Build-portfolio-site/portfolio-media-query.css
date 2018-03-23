@@ -1,0 +1,141 @@
+
+/*Media query for width upto 350px  */
+@media screen and (max-width: 350px) {
+	/*Body level styling  */
+	html, body {
+		font-size: 2vw;
+	}
+	/*Header  */
+	.logo
+img {
+		width: 20%;
+		padding: 10px;
+	}
+	.display-title
+h1 {
+		font-size: 4vw;
+		line-height: 0.5em;
+	}
+	.display-title 
+h2 {
+		font-size: 3.5vw;
+	}
+
+	/* Content */
+	.content 
+img {
+		height: 20%;
+		min-width: 40%;
+	}
+
+	/*Sidebar  */
+	.menu-box {
+		margin-left: 0;
+	}
+	.menu-box 
+img {
+		width: 20%;
+	}
+	.menu-caption {
+		font-size: 2.5vw;
+	}
+
+	/*Featured  */
+	.featured  
+p {
+		font-size: 3.5vw;
+	}
+	.image-featured 
+img {
+		width: 40%;
+		height: auto;
+	}
+	.featured-caption {
+		font-size: 3vw;
+		text-align: justify;
+	}
+}
+
+/*Media query for device width 800px and more  */
+@media screen and (max-width: 800px) {
+	html, body {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+/* 	Text in the page
+ */
+.display-title
+ h1 {
+	font-size: 3.5vw;
+}
+
+.display-title
+ h2 {
+	font-size: 2vw;
+}
+
+.featured  
+p {
+	font-size: 2vw;
+}
+
+.menu-caption {
+	font-size: 2vw;
+}
+
+.featured-caption {
+	font-size: 2vw;
+}
+
+}
+@media screen and (max-width: 450px) {
+
+/* 0 margin below 450px  */
+html, body {
+	margin: 0;
+}
+
+/*Reducing size of logo below 450px  */
+.logo
+img {
+	width: 10%;
+	padding: 0;
+}
+
+/* 	Increasing font size
+ */
+.display-title
+ h1 {
+	font-size: 3.5vw;
+}
+
+.display-title
+ h2 {
+	font-size: 2vw;
+}
+
+.featured  
+p {
+	font-size: 2vw;
+}
+
+.menu-caption {
+	font-size: 2vw;
+}
+
+.featured-caption {
+	font-size: 2vw;
+}
+
+}
+
+/* Media query below 700px */
+@media screen and (max-width: 700px) {
+	/* Setting margin below 700px */
+	html, body {
+		margin: 20px;
+	}
+}

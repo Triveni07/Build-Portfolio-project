@@ -1,0 +1,97 @@
+/******************************************* Html and body styling *****************************************************************/
+html, body {
+	font: 2vw 'Quicksand', Arial, Helvetica, sans-serif;
+	color: #7a6552;
+	padding: 0;
+	margin: 0;
+	background-color: #f2e6d9;
+}
+
+/******************************************* Header styling *************************************************************************/
+.header {
+	overflow: hidden;
+}
+
+.logo {
+	margin-top: 2em;
+}
+
+.logo
+img {
+	width: 20%;
+	height: auto;
+}
+
+.display-title {
+	margin-top: 2.5em;
+}
+
+.display-title
+h1 {
+	font-size: 2vw;
+	line-height: 0.7em;
+	font-weight: lighter;
+	text-align: right;
+}
+
+.display-title 
+h2 {
+	font-size: 1vw;
+	text-align: right;
+}
+
+.heading
+hr {
+	width: 92%;
+	height: 1px;
+	border-top: 1px solid;
+	margin-left: 2.5em;
+}
+
+/******************************************* Showcase styling ********************************************************************/
+.content 
+img {
+	height: 85%;
+	min-width: 100%;
+	border-radius: 0.5em;
+}
+
+/******************************************* Sidebar menu styling *************************************************************************/
+.menu-box {
+	margin-left: 50px;
+}
+
+.menu-box 
+img {
+	width: 60%;
+	border-radius: 0.5em;
+}
+
+.menu-caption {
+	font-size: 1vw;
+	font-weight: bold;
+	padding: 15px;
+	text-align: justify;
+}
+
+/******************************************* Featured work styling **********************************************************************/
+.featured  
+p {
+	font-size: 1.5vw;
+	font-style: italic;
+	text-align: center;
+}
+
+.image-featured 
+img {
+	padding-bottom: 15px;
+	margin-top: 10px;
+	border-radius: 0.5em;
+}
+
+.featured-caption {
+	font-size: 1vw;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
